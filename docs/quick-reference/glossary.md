@@ -62,7 +62,7 @@ MS(2)
   generate the spectra for the ion fragments.
 
 MS/MS
-  Tandem mass spectrometry, MS^2^, a technique where two or more mass analyzers are coupled together using an additional reaction step to increase their abilities to analyse chemical samples.
+  Tandem mass spectrometry, MS2, a technique where two or more mass analyzers are coupled together using an additional reaction step to increase their abilities to analyse chemical samples.
 
 collision-induced dissociation (CID)
   A mass spectrometry technique to induce fragmentation of selected ions in the gas phase. Also known as Collision
@@ -75,7 +75,7 @@ MSGFPlusAdapter
   Adapter for the MS-GF+ protein identification (database search) engine. More information is available [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/TOPP_MSGFPlusAdapter.html).
 
 LuciphorAdapter
-  Adapter for the LuciPHOr2: a site localisation tool of generic post-translational modifications from tandem mass
+  Adapter for the LuciPHOr2: A site localisation tool of generic post-translational modifications from tandem mass
   spectrometry data. More information is available [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/TOPP_LuciphorAdapter.html).
 
 pyOpenMS
