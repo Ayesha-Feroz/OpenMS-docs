@@ -11,19 +11,19 @@ It comes with a vast variety of pre-built and ready-to-use tools for proteomics
 and metabolomics data analysis (:term:`TOPP Tools`) as well as powerful 1D, 2D and 3D
 visualization (:term:`TOPPView`).
 
-OpenMS offers analyses for various quantitation protocols, including label-free
-quantitation, :term:`SILAC`, :term:`iTRAQ`, :term:`TMT`, :term:`SRM`, :term:`SWATH`, etc.
+OpenMS offers analyses for various quantification protocols, including label-free
+quantification, :term:`SILAC`, :term:`iTRAQ`, :term:`TMT`, :term:`SRM`, :term:`SWATH`, etc.
 
 It provides built-in algorithms for de-novo identification and database search,
 as well as adapters to other state-of-the art tools like X!Tandem, :term:`Mascot`, etc. It supports easy integration of OpenMS built tools into workflow
 engines like :term:`KNIME`, Galaxy, WS-Pgrade, and :term:`TOPPAS` via the :term:`TOPP tools` concept and
-a unified parameter handling via a 'common tool description' (CTD) scheme.
+a unified parameter handling via a Common Tool Description (CTD) scheme.
 
 .. important::
   As part of the **Center for Integrative Bioinformatics** (CiBi) in the **German Network for Bioinformatics**
   `deNBI <https://www.denbi.de/>`_,
-  OpenMS is currently focusing the development efforts on the integration of OpenMS into KNIME. KNIME is a well-established
-  data analysis framework that supports the generation of workflows for data analysis. Using a Common Tool Description
+  OpenMS is currently focusing the development efforts on the integration of OpenMS into KNIME, which is a well-established
+  data analysis framework that supports the generation of workflows for data analysis. It uses a Common Tool Description
   (CTD) file which is writeable by every TOPP tool and a node generator program (`Generic KNIME Nodes <https://github.com/genericworkflownodes/GenericKnimeNodes>`_), all   :term:`TOPP tools` can be made available to run in KNIME.
 
 With :term:`pyOpenMS`, OpenMS offers Python bindings to a large part of the :term:`OpenMS API`
