@@ -19,7 +19,7 @@ Liquid chromatography (LC) is an analytical technique used to separate analytes 
 
 Mass spectrometry is an analytical technique used to determine the abundance of molecules in a sample. There are three major components in a mass spectrometer:
 - An **ion source**, which generates ions from the incoming sample. In LC-MS, the different compounds in a sample elute from the LC column at different retention times, reducing the complexity in the mass spectrum.
-- A **mass analyzer**, which separates the ions according to their mass-to-charge ratio. There are several types such as time of flight (TOF), orbitrap and quadrupole mass analyzers. Depending on the mass analyzer, OpenMS offers calibration tools, so that highly accurate results can be achieved.
+- A **mass analyzer**, which separates the ions according to their mass-to-charge ratio. There are several types such as Time Of Flight (TOF), orbitrap and quadrupole mass analyzers. Depending on the mass analyzer, OpenMS offers calibration tools, so that highly accurate results can be achieved.
 - A **detector**, which records the mass-to-charge ratio of each ion against their relative abundance in a plot known as a mass spectrum.
 
 ![mass spectrometry](../images/introduction/introduction_MS.png)
