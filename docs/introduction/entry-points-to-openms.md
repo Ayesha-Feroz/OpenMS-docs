@@ -20,7 +20,7 @@ The following entry points for OpenMS and its TOPP tools are available for users
 :::{grid-item-card} {material-regular}`insert_chart;5em;sd-text-info` **Graphical apps** <br/> Use OpenMS graphical user interfaces to easily process data and inspect results
   :link: ../openms-applications-and-tools/openms-graphical-user-interfaces
   :link-type: doc
-  When OpenMS is installed, a number of graphical user interfaces are available. Life science experts that want to quickly process their mass spectrometry data with the TOPP tools available can use this option.
+  When OpenMS is installed, a number of graphical user interfaces are available, life science experts that want to quickly process their mass spectrometry data with the TOPP tools available can use this option.
 
 :::
 
