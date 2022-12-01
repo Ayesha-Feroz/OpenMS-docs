@@ -45,9 +45,9 @@ First, add a file adapter class to the `include/OpenMS/FORMAT/` and `source/FORM
 implement a default constructor, a load method and a store method. Make sure your code conforms to the OpenMS Coding
 conventions. For automatic file type recognition, you need to
 
-- register your new file type at the Type enum in `/include/OpenMS/FORMAT/FileTypes.h`,
-- flag the file type as supported in the isSupported method of `/source/FORMAT/FileHandler.C`
-- register the file extension in the getTypeByFileName method of `/source/FORMAT/FileHandler.C`
+- Register your new file type at the Type enum in `/include/OpenMS/FORMAT/FileTypes.h`,
+- Flag the file type as supported in the isSupported method of `/source/FORMAT/FileHandler.C`
+- Register the file extension in the getTypeByFileName method of `/source/FORMAT/FileHandler.C`
 
 If the new file is a peak or feature file format you should also add it to loadExperiment or loadFeatures, respectively,
 of the FileHandler class. To add the file format to the TOPPView open dialog, you have to modify the file
@@ -57,7 +57,7 @@ of the FileHandler class. To add the file format to the TOPPView open dialog, yo
 
 To add your format to TOPP applications:
 
-- add the file extension to the extensions list of the respective parameter:
+- Add the file extension to the extensions list of the respective parameter:
   ```
   e.g. setValidStrings_("in_type", StringList::create("mzData,mzXML,mzML")); in FileInfo
   ```
