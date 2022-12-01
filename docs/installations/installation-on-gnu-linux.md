@@ -166,17 +166,17 @@ If you encounter errors with unavailable packages, troubleshoot using the follow
    You can find the missing version on [pkgs.org](https://pkgs.org) and install it with `gdebi`, too. You can have
    multiple versions of ICU installed.
 
-3. Error while executing a tool
+3. Error while executing a tool.
 
    To ensure the tool functionality, make sure you add the `OPENMS_DATA_PATH` variable to your environment as follow
    `export OPENMS_DATA_PATH=/usr/share/OpenMS`
 
-4. Thirdparty installation of Qt5 in step 1
+4. Thirdparty installation of Qt5 in step 1.
 
    Make sure you source the provided environment file using:
    `source /opt/qt59/bin/qt59-env.sh`
 
-5. Adapters are not finding thirdparty applications
+5. Adapters are not finding thirdparty applications.
 
    Executables for thirdparty applications can be found in:
    `/usr/share/OpenMS/THIRDPARTY`
