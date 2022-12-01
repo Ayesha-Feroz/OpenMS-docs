@@ -21,9 +21,7 @@ Components include:
 
 - **Display modes and options**
 - A **Viewer** that displays visual data.
-- **Layers**
-
-  You can visualize several datasets by creating **layers**. In the **Layers window** (dock window in the upper right
+- **Layers**: You can visualize several datasets by creating **layers**. In the **Layers window** (dock window in the upper right
   corner), layers can be hidden and shown using the check box in front of each layer name.
 - **Data filtering window**
 - **Log window** to view textual output of applying TOPP tools to data.
