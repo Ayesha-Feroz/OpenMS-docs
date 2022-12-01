@@ -57,7 +57,7 @@ A feature map is a container for features. One feature map can contain many feat
 
 A featureXML file is an XML based file which contains one feature map.
 
-FeatureXML files can be created from mzML files using OpenMS’s feature detection algorithms.
+FeatureXML files can be created from mzML files using OpenMS feature detection algorithms.
 
 ## Consensus feature, consensus maps, consensusXML files
 
@@ -65,4 +65,4 @@ A consensus feature is a special type of LC-MS feature that is quantified across
 
 Similar to a feature map, a consensus map is a container for consensus features. One consensus map can contain many consensus features.
 
-ConsensusXML files can be created from featureXML files using OpenMS's feature grouping algorithms.
+ConsensusXML files can be created from featureXML files using OpenMS feature grouping algorithms.
