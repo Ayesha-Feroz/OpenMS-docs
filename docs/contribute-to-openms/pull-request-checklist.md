@@ -25,23 +25,23 @@ Before opening a pull request, check the following:
 
 Make sure to:
 
-- **Rebase before you open a pull request.**
+- **Rebase before you open a pull request:**
   To include all recent changes, rebase your branch on `develop` before opening a pull request.
   If you pushed your branch to `origin` before rebasing, git will most likely tell you after the rebase that your
   local branch and the remote branch have diverged. If you are sure that the remote branch does not contain any local
   commits in the rebased version, you can safely push using `git push -f origin <branch-name>` to enforce overwrite. If
   not, contact your local git expert on how to get the changes into your local branch.
 
-- **Capture similar changes in a single commit**
+- **Capture similar changes in a single commit:**
   Each commit should represent one logical unit. Consolidate multiple commits if they belong together or split single
   commits if they are unrelated. For example, committing code formatting together with a one-line fix makes it very hard
   to figure out what the fix was and which changes were inconsequential.
 
-* **Create a pull request for a single feature or bug**
+* **Create a pull request for a single feature or bug:**
   If you have multiple features or fixes in a pull request, you might get asked to split your request and open multiple
   pull requests instead.
 
-* **Describe what you have changed in your pull request.**
+* **Describe what you have changed in your pull request:**
   When opening the pull request, give a detailed overview of what has changed and why. Include a clear rationale for the
   changes and add benchmark data if available. See [this request](https://github.com/bitly/dablooms/pull/19) for 
   an example.
