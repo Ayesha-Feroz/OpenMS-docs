@@ -148,7 +148,7 @@ PostFDR FeatureXML
 
 ### RTAlignment
 
-The **RTAlignment** metric checks what the retention time was before the alignment and how it is after the alignment.
+The **RTAlignment** metric checks the retension time values before the aligment and after the aligment.
 These two values are added to the metavalues in the PeptideIdentification.
 
 #### Required input data
