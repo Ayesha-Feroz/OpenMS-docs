@@ -62,7 +62,7 @@ MS(2)
   generate the spectra for the ion fragments.
 
 MS/MS
-  Tandem mass spectrometry, MS^2^, a technique where two or more mass analyzers are coupled together using an additional reaction step to increase their abilities to analyse chemical samples.
+  Tandem mass spectrometry, MS^2, a technique where two or more mass analyzers are coupled together using an additional reaction step to increase their abilities to analyse chemical samples.
 
 collision-induced dissociation (CID)
   A mass spectrometry technique to induce fragmentation of selected ions in the gas phase. Also known as Collision
